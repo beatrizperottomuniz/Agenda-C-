@@ -17,7 +17,7 @@ namespace Agenda.Models
             }
             set{
                 if (string.IsNullOrWhiteSpace(value)==true){
-                        throw new AgendaException("O compromisso precisa de título");
+                        throw new AgendaException("O compromisso precisa de titulo");
                 }else{
                     this._titulo=value;
                 }
